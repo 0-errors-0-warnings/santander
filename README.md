@@ -9,7 +9,7 @@ I was asked to take no more than a hour to finish up this task. I took a bit mor
   - `cd` to `Santander\SantanderHackerNewsApi`
   - dotnet build
   - dotnet run
-* Open swagger in a web browser by following the link: [https://localhost:7065/swagger/index.html][https://localhost:7065/swagger/index.html]
+* Open swagger in a web browser by following the link: [https://localhost:7065/swagger/index.html](https://localhost:7065/swagger/index.html)
 
 ## Assumptions:
 I have assumed the data at HackerNews doesn't change very frequently. Hence the cache I implemented remains valid for an hour, allowing us to reduce the number of requests we make to HackerNews.
